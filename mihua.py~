@@ -65,7 +65,7 @@ def windows_d():
     webbrowser.open_new_tab(url)
     url = 'http://v.youku.com/v_show/id_XNTEyOTM3MTgw.html'
     webbrowser.open_new_tab(url)
-    time.sleep(30)
+    time.sleep(20)
     os.system('taskkill /F /IM chrome.exe')
 def windows_d_loop():
     i = 0
@@ -79,5 +79,5 @@ def windows_d_loop():
         i = i + 1
 
 if __name__ == '__main__':
-    #c_loop()
-    windows_d_loop()
+    c_loop()
+    windows_d()
